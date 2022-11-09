@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.ae2dms.cw.controller.InfoSceneController">
+   <children>
+      <AnchorPane prefHeight="680.0" prefWidth="800.0">
+         <children>
+            <Button layoutX="284.0" layoutY="535.0" mnemonicParsing="false" onAction="#toStartScene" prefHeight="102.0" prefWidth="199.0" text="BACK TO MAIN">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Button>
+            <TextArea layoutX="38.0" layoutY="24.0" prefHeight="487.0" prefWidth="732.0" text="Easy to play!!!!&#10;&#10;1. Use &quot;up&quot;, &quot;left&quot;, &quot;right&quot; to change directions !&#10;&#10;2. Press &quot;E&quot; to project !&#10;&#10;3. Press &quot;Q&quot;  to protect yourself !&#10;&#10;4. Use &quot;W&quot; as your secret weapon !&#10;&#10;5. Use &quot;S&quot; to build and make use of the barriers !&#10;&#10;6. Use SPACE to RUN !&#10;&#10;All you need to do is kill all the enemys ! &#10;&#10;Try find out by yourself how you can get the rewards !&#10;&#10;&#10;">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </TextArea>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

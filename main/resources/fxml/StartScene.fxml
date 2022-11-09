@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ColorPicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="StartScene" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.ae2dms.cw.controller.StartSceneController">
+   <children>
+      <AnchorPane id="myPane" fx:id="ap1" layoutY="-1.0" prefHeight="680.0" prefWidth="800.0">
+         <children>
+            <ImageView id="myImageView" fitHeight="680.0" fitWidth="653.0" layoutX="123.0" layoutY="-6.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../img/StartScene.png" />
+               </image>
+            </ImageView>
+            <Button fx:id="start" layoutX="29.0" layoutY="302.0" mnemonicParsing="false" onAction="#toLevelChooseSceneScene" prefHeight="90.0" prefWidth="152.0" text="Start Game" textOverrun="CENTER_ELLIPSIS">
+               <font>
+                  <Font size="22.0" />
+               </font>
+            </Button>
+            <Button fx:id="info" layoutX="678.0" layoutY="609.0" mnemonicParsing="false" onAction="#toInfoScene" prefHeight="57.0" prefWidth="107.0" text="Help" textOverrun="CENTER_ELLIPSIS">
+               <font>
+                  <Font size="22.0" />
+               </font>
+            </Button>
+            <ColorPicker id="myColorPicker" fx:id="myColorPicker" layoutX="587.0" layoutY="36.0" onAction="#changeColor" promptText="Set  Color" />
+
+            <Label layoutX="29.0" layoutY="27.0" prefHeight="26.0" prefWidth="36.0" text="Sound" />
+            <Button fx:id="sound"  layoutX="70.0" layoutY="26.0" mnemonicParsing="false" onAction="#OpenSound" prefHeight="20.0" prefWidth="50.0" text="ON" textOverrun="CENTER_ELLIPSIS">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Button>
+
+            <Label layoutX="560.0" layoutY="14.0" prefHeight="17.0" prefWidth="180.0" text="Set Background Color:" />
+            <Label layoutX="500.0" layoutY="649.0" text="Produced by Shuchang Huang" />
+            <Button fx:id="storm" layoutX="624.0" layoutY="302.0" mnemonicParsing="false" onAction="#toStormModeScene" prefHeight="90.0" prefWidth="152.0" text="Storm Mode" textOverrun="CENTER_ELLIPSIS">
+               <font>
+                  <Font size="22.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

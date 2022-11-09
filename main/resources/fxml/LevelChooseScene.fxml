@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<AnchorPane prefHeight="680" prefWidth="800.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.ae2dms.cw.controller.LevelSceneController">
+   <children>
+      <ImageView fx:id="level1" fitHeight="223.3" fitWidth="800.0" onMouseClicked="#toLevel" onMouseEntered="#mouseEnter" onMouseExited="#mouseLeave" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../img/back1.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="level2" fitHeight="223.3" fitWidth="800.0" layoutY="236.0" onMouseClicked="#toLevel" onMouseEntered="#mouseEnter" onMouseExited="#mouseLeave" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../img/back1.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="level3" fitHeight="223.3" fitWidth="800.0" layoutY="471.0" onMouseClicked="#toLevel" onMouseEntered="#mouseEnter" onMouseExited="#mouseLeave" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../img/back1.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="148.0" layoutY="77.0" text="EASY     LEVEL ONE ">
+         <font>
+            <Font name="Academy Engraved LET Plain:1.0" size="40.0" />
+         </font>
+      </Label>
+      <Label layoutX="148.0" layoutY="307.0" text="HARD    LEVEL TWO ">
+         <font>
+            <Font name="Academy Engraved LET Plain:1.0" size="40.0" />
+         </font>
+      </Label>
+      <Label layoutX="148.0" layoutY="542.0" text="EVIL      LEVEL THREE ">
+         <font>
+            <Font name="Academy Engraved LET Plain:1.0" size="40.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
